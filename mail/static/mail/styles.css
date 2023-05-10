@@ -1,0 +1,63 @@
+textarea {
+    min-height: 400px;
+}
+
+.read{
+    background-color: darkgray;
+}
+
+.unread{
+    background-color: aliceblue;
+}
+
+.single_email_read {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 12px;
+    border-color:white;
+    background-color: #ECC1A1;
+    color: black;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    display:flex;
+    font-size: large;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.single_email_read:hover {
+    cursor: pointer;
+}
+
+.single_email_unread {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 12px;
+    border-color:white;
+    background-color: #dac8be;
+    color: black;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+    display:flex;
+    font-size: large;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.single_email_unread:hover {
+    cursor: pointer;
+}
+
+
+.emailBody {
+    background-color: white;
+    border-color: #dcd8d6;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3px;
+    height: 160px;
+    padding:2%;
+    
+}
